@@ -82,7 +82,7 @@ async def krunker(ctx):
     ffaElement.click()
     ggElement.click()
     playersElement = driver.find_element_by_id('customSmaxPlayers')
-    driver.execute_script("arguments[0].setAttribute('value','4')", playersElement)
+    driver.execute_script("arguments[0].setAttribute('value','5')", playersElement)
     minuteElement = driver.find_element_by_id('customSgameTime')
     driver.execute_script("arguments[0].setAttribute('value','15')", minuteElement)
     print("Starting Server")
